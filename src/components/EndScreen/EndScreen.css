@@ -1,0 +1,43 @@
+.endscreen_main{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 20px 20px 20px 20px #999;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: 30px;
+}
+.endscreen_main > button{
+    margin: 20px;
+    width: 50%;
+    height: 35px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    background: none;
+}
+.endscreen_main > button:hover{
+    color: #fff;
+    background: #9400d3;
+}
+.meme_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meme{
+    margin-top: 4px;
+   
+    width: 350px;
+    height: 350px;
+}

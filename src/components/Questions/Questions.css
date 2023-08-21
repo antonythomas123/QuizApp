@@ -1,0 +1,61 @@
+.questions_main{
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    background: rgba(255, 255, 255, 0.4);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #999;
+    border-radius: 10px;
+}
+.choices{
+    width: 50%;
+    padding: 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.choices > input{
+    width: 40px;
+    height: 18px;
+}
+.choices > label{
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.submit_button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+.submit_button > button{
+    width: 50%;
+    height: 35px;
+    border: 1px solid #222;
+    border-radius: 6px;
+    background: none;
+    font-size: 15px;
+}
+.submit_button > button:hover{
+    background: #9400d3;
+    color: #fff;
+}
+.end_screen{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.alert{
+    color: red;
+}
